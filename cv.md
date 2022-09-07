@@ -1,4 +1,4 @@
-[rsschool-cv] (https://github.com/VictorREDrudko/rsschool-cv.git)
+[rsschool-cv](https://github.com/VictorREDrudko/rsschool-cv.git)
 
 # Viktor Rudzko
 
