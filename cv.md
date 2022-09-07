@@ -1,10 +1,10 @@
 [rsschool-cv](https://github.com/VictorREDrudko/rsschool-cv.git)
 # Viktor Rudzko
 ## Contact information:
-* Belarus, Minsk
-* Phone: +375(29)-290-78-33
-* E-mail: viktor_RED_rudko@mail.ru
-* Discord: viktorREDrudko#5835
+* _Belarus, Minsk_
+* _Phone: +375(29)-290-78-33_
+* _E-mail: viktor_RED_rudko@mail.ru_
+* _Discord: viktorREDrudko#5835_
 ***
 
 ## About myself:
@@ -36,11 +36,11 @@ Nothing yet…
 ***
 
 ## Education and courses:
-* technical education;
-* self-education: HTML, CSS,JS, Git video courses on YouTube channel.
+* _technical education;_
+* __self-education:__ _HTML, CSS,JS, Git video courses on YouTube channel._
 ***
 
 ## Languages:
-* English - Pre-Intermediate ( school of English "English Tochka", certificate verification code: 7d1247e2a72a)
-* Russian - Native
-* Belorussian - Native
+* __English__ _- Pre-Intermediate ( school of English "English Tochka", certificate verification code: 7d1247e2a72a);_
+* __Russian__ _- Native;_
+* __Belorussian__ _- Native._
