@@ -1,6 +1,7 @@
 [rsschool-cv](https://github.com/VictorREDrudko/rsschool-cv.git)
 # Viktor Rudzko
 ## Contact information:
+
 * _Belarus, Minsk_
 * _Phone: +375(29)-290-78-33_
 * _E-mail: viktor_RED_rudko@mail.ru_
@@ -19,6 +20,8 @@
 > JavaScript 
 
 > React
+
+![programming](/rsschool-cv/img/programming.jpg)
 ***
 
 ## Code example:
@@ -37,7 +40,10 @@ Nothing yet…
 
 ## Education and courses:
 * _technical education;_
-* __self-education:__ _HTML, CSS,JS, Git video courses on YouTube channel._
+* __self-education:__ _HTML, CSS, JS, Git video courses on YouTube channel._
+
+![standards](/rsschool-cv/img/standards.png)
+
 ***
 
 ## Languages:
