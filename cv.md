@@ -2,7 +2,7 @@
 
 ## my contact info:
 * **Address:** *Prilukskay st. Minsk, [Belarus](https://en.wikipedia.org/wiki/Belarus)*
-* **Phone:** *+37529-290-78-33*
+* **Phone:** *+375-29-290-78-33*
 * **E-mail:** *viktor_RED_rudko@mail.ru*
 * **GitHub:** *VictorREDrudko*
 * **Telegram:** *@ViktorRED84*
