@@ -2,42 +2,89 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width">
 	<title>CV</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<div class="container">
-				<div class="header__row">
-					<div class="header__icon">
-						<img class="icon_js" src="img/R.png" alt="my icon">
-					</div>
-					<div class="header__title">
-						<h1>Victor RED</h1>
-						<p>FUTURE FRONT-END DEVELOPER</p>
-					</div>
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="img/icon/code_icon.png" alt="icon-comp">
+				</div>
+				<div class="header__nav">
+					<ul class="header__list">
+						<li><a>Education</a></li>
+						<li><a>Skills</a></li>
+						<li><a>Contacts</a></li>
+					</ul>
 				</div>
 			</div>
+			<div class="header__line">
+				<div class="line"></div>
+			</div>
 		</header>
-		<main>
-			<div class="container">
-				<div class="columns__row">
-					<aside class="side">
-						<nav>
-							<ul class="list">
-								<li>
-									<a href="#">About Me</a>
-								</li>
-								<li>
-									<a href="#">My skills</a>
-								</li>
-								<li>
-									<a href="#">Education</a>
-								</li>
+		<main class="content">
+			<div class="main__container">
+				<section class="about">
+					<div class="about__title title">
+						<h2>About me</h2>
+						<div class="title__line">
+							<div class="line1"></div>
+						</div>
+					</div>
+					<div class="about__row">
+						<div class="about__photo">
+							<img src="img/me.jpg" alt="my_photo">
+						</div>
+						<div class="about__content">
+							<div class="about__name">
+								<h1>Viktor RED</h1>
+								<p>FUTURE FRONT-END DEVELOPER</p>
+							</div>
+							<div class="about__text">
+								<p>I am 39 years old. <br>My profession is an engineer. I love my job, but it's time to change my life! My goal is to become a front-end developer! No one is going to hand me success. I must go out & get it myself. That's why I'm here.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="education">
+					<div class="education__title title">
+						<h2>My education</h2>
+						<div class="title__line">
+							<div class="line1"></div>
+						</div>
+					</div>
+					<div class="education__row">
+						<div class="education__picture">
+							<img src="img/education.png" alt="logo1">
+						</div>
+						<div class="education__content">
+							<h3>Training and courses</h3>
+							<ul class="education__list">
+								<li>Military Academy of the Republic of Belarus</li>
+								<li>Udemy (JavaScript, React in process…)</li>
+								<li>Course of Spoken English</li>
 							</ul>
-						</nav>
+						</div>
+						<div class="education__lang">
+							<h3>Languages</h3>
+							<ol>
+								<li>Russian - native speaker.</li>
+								<li>English - pre-intermediate (A2, B1 in process...)</li>
+							</ol>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+
+	<!-- <div class="wrapper">
+		<header class="header">
+
 					</aside>
 					<section class="info">
 						<div class="info__row">
@@ -126,6 +173,6 @@ myAge(personOne)
 				</div>
 			</div>
 		</footer>
-	</div>
+	</div> -->
 </body>
 </html>

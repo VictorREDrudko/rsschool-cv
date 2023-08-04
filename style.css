@@ -15,6 +15,231 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit;font-weight: 400;}
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	background-color: #4e4d4d;
+}
+
+.wrapper {
+	max-width: 1440px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #ffffff;
+}
+
+.header {
+	background-color: #1c1c1c;
+}
+
+.header__container {
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__logo {
+	height: 90%;
+}
+
+.header__logo img {
+	height: 100%;
+	margin: 5px 40px 5px 20px;
+	opacity: 0.5;
+}
+
+.header__nav {
+	height: 90%;
+}
+
+.header__list {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	margin: 10px 0 0 0;
+}
+
+.header__list li {
+	display: flex;
+	justify-content: space-around;
+	color: rgb(131, 237, 2);
+	margin: 5px 40px 5px 0;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+.header__list li:last-child {
+	margin: 5px 20px 5px 0;
+}
+
+.header__line {
+	width: 99%;
+	margin: 0 auto;
+}
+
+.line {
+	margin: 3px 0 3px 0;
+	border: 1px solid rgb(131, 237, 2);
+}
+
+.content {
+	height: 100%;
+	background-color: black;
+}
+
+.main__container {
+	height: 100%;
+	background: url('img/p.png'), url('img/picture.png') 0 0/100% auto;
+	margin: 1px;
+}
+
+.title {
+	padding: 20px 0 0 0;
+}
+
+.title h2 {
+	color: rgb(131, 237, 2);
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0.3em;
+	text-align: center;
+}
+
+.title__line {
+	width: 5%;
+	margin: 0 auto;
+}
+
+.line1 {
+	width: 100%;
+	border: 1px solid rgb(131, 237, 2);
+	margin: 10px 0 0 0;
+}
+
+.about__row {
+	display: flex;
+	justify-content: center;
+	margin: 30px 0 40px 0;
+}
+
+.about__photo {
+	max-width: 25%;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 5px;
+}
+
+.about__photo img{
+	width: 100%;
+}
+
+.about__content {
+	background-color: rgba(131, 237, 2, 0.3);
+	border-radius: 10%;
+	margin: 5px 5px 5px 40px;
+	max-width: 50%;
+	padding: 20px;
+}
+
+.about__name h1 {
+	color: rgb(131, 237, 2);
+	font-size: 28px;
+	font-weight: 400;
+	letter-spacing: 0.4em;
+}
+
+.about__name p {
+	color: rgb(131, 237, 2);
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.2em;
+	margin: 10px 0 20px 0;
+}
+
+.about__text {
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+}
+
+.education__row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 0 0 0;
+}
+
+h3 {
+	color: rgb(131, 237, 2);
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.3em;
+	text-align: center;
+	padding: 10px 0 20px 0;
+}
+
+.education__picture {
+	max-width: 12%;
+	margin: 5px;
+}
+
+.education__picture img {
+	max-width: 120px;
+}
+
+.education__content {
+	margin: 0 60px 0 20px;
+	background-color: rgba(131, 237, 2, 0.3);
+	border-radius: 5%;
+	flex: 0 0 35%;
+}
+
+.education__lang {
+	margin: 0 0 10px 0;
+	background-color: rgba(131, 237, 2, 0.3);
+	border-radius: 5%;
+	flex: 0 0 35%;
+}
+
+.education__list {
+	list-style-type: none;
+}
+
+.education__list li {
+	color: rgb(5, 5, 5);
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.2em;
+	margin: 10px 0 10px 20px;
+}
+
+ol {
+	margin: 10px;
+}
+
+ol li {
+	color: rgb(5, 5, 5);
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.2em;
+	margin: 10px 0 10px 20px;
+}
+
+
+
+
+
+.footer {
+	height: 100px;
+	background-color: #5e5f61;
+}
+
+
+/* body {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -185,4 +410,4 @@ code {
 	width: 25%;
 	padding: 10px;
 }
-
+ */
