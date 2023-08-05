@@ -5,174 +5,80 @@
 	<meta name="viewport" content="width=device-width">
 	<title>CV</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&family=Victor+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="header__container">
-				<div class="header__logo">
-					<img src="img/icon/code_icon.png" alt="icon-comp">
-				</div>
-				<div class="header__nav">
-					<ul class="header__list">
-						<li><a>Education</a></li>
-						<li><a>Skills</a></li>
-						<li><a>Contacts</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="header__line">
-				<div class="line"></div>
-			</div>
-		</header>
-		<main class="content">
-			<div class="main__container">
-				<section class="about">
-					<div class="about__title title">
-						<h2>About me</h2>
-						<div class="title__line">
-							<div class="line1"></div>
-						</div>
-					</div>
-					<div class="about__row">
-						<div class="about__photo">
-							<img src="img/me.jpg" alt="my_photo">
-						</div>
-						<div class="about__content">
-							<div class="about__name">
-								<h1>Viktor RED</h1>
-								<p>FUTURE FRONT-END DEVELOPER</p>
-							</div>
-							<div class="about__text">
-								<p>I am 39 years old. <br>My profession is an engineer. I love my job, but it's time to change my life! My goal is to become a front-end developer! No one is going to hand me success. I must go out & get it myself. That's why I'm here.</p>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="education">
-					<div class="education__title title">
-						<h2>My education</h2>
-						<div class="title__line">
-							<div class="line1"></div>
-						</div>
-					</div>
-					<div class="education__row">
-						<div class="education__picture">
-							<img src="img/education.png" alt="logo1">
-						</div>
-						<div class="education__content">
-							<h3>Training and courses</h3>
-							<ul class="education__list">
-								<li>Military Academy of the Republic of Belarus</li>
-								<li>Udemy (JavaScript, React in process…)</li>
-								<li>Course of Spoken English</li>
-							</ul>
-						</div>
-						<div class="education__lang">
-							<h3>Languages</h3>
-							<ol>
-								<li>Russian - native speaker.</li>
-								<li>English - pre-intermediate (A2, B1 in process...)</li>
-							</ol>
-						</div>
-					</div>
-				</section>
-			</div>
-		</main>
-		<footer class="footer"></footer>
-	</div>
+	<header class="header">
+		<div class="container header__container">
+			<a href="#" class="logo header__logo">
+				<img src="img/icon/logo_lion.png" alt="lion" class="logo__img">
+			</a>
+			<nav class="menu">
+				<button class="menu__button">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<ul class="menu__list">
+					<li class="menu__list-item">
+						<a href="#" class="menu__list-link">About me</a>
+					</li>
+					<li class="menu__list-item">
+						<a href="#" class="menu__list-link">Education</a>
+					</li>
+					<li class="menu__list-item">
+						<a href="#" class="menu__list-link">Skills</a>
+					</li>
+					<li class="menu__list-item">
+						<a href="#" class="menu__list-link">Contact</a>
+					</li>
+				</ul>
+			</nav>
+			<a href="tel:+375292907833" class="phone">+375-29-290-78-33</a>
+		</div>
+	</header>
 
-	<!-- <div class="wrapper">
-		<header class="header">
 
-					</aside>
-					<section class="info">
-						<div class="info__row">
-							<div class="info__image">
-								<img src="img/photo.png" alt="My photo">
-								<h2>my contact info:</h2>
-									<ul>
-										<li>Address: Prilukskay st. Minsk, Belarus</li>
-										<li>Phone: +37529-290-78-33</li>
-										<li>E-mail: viktor_RED_rudko@mail.ru</li>
-										<li>Telegram: @ViktorRED84</li>
-										<li>Discord: .viktorred</li>
-									</ul>
-								<h2>Languages</h2>
-								<ol>
-									<li>Russian - native speaker.</li>
-									<li>English - pre-intermediate (A2, B1 in process...)3</li>
-								</ol>
-							</div>
-							<div class="info__body">
-								<div class="info__title">
-									<h2>About Me</h2>
-								</div>
-								<div class="info__text">
-									<p>I am 39 years old. My profession is an engineer. I love my job, but it's time to change my life! My goal is to become a front-end developer! No one is going to hand me success. I must go out & get it myself. That's why I'm here.</p>
-									<h3>My strengths:</h3>
-									<ul>
-										<li>Purposefulness</li>
-										<li>Life experience</li>
-										<li>Diligence</li>
-										<li>Responsibility</li>
-									</ul>
-									<br>
-									<h2>Code Examples</h2>
-									<div class="code">
-										<pre>
-											<code>
-personOne = {
-	age: 39
-}
-function myAge(person){
-	person.age +=1
-	return person
-}
 
-myAge(personOne)
-											</code> 
-										</pre>
-									</div>
-								</div>
-								<div class="info__body">
-									<div class="info__title">
-										<h2>My skills</h2>
-									</div>
-									<div class="info__text">
-										<ol>
-											<li>HTML</li>
-											<li>CSS</li>
-											<li>JavaScript (acquainted)</li>
-											<li>React (acquainted)</li>
-											<li>Git/GitHub</li>
-										</ol>
-										<br>
-										<h2>Education</h2>
-										<ul>
-											<li>Military Academy of the Republic of Belarus</li>
-											<li>Udemy (JavaScript, React in process…)</li>
-											<li>Course of Spoken English</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
+
+
+	<main class="content"></main>
+
+
+	<footer class="footer">
+		<div class="container container__footer">
+			<a href="#" class="logo footer__logo">
+				<img src="img/icon/logo_lion.png" alt="lion" class="logo__img">
+			</a>
+			<div class="footer__date">
+				<p>Never give up</p>
+				<p>2023</p>
 			</div>
-		</main>
-		<footer class="footer">
-			<div class="container">
-				<div class="footer__row">
-					<p>2023</p>
-					<a href="https://github.com/VictorREDrudko">my GitHub</a>
-					<div class="rs">
-						<a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="icon"></a>
-					</div>
-				</div>
+			<div class="footer__contacts">
+				<a href="tel:+375292907833" class="phone-telegram">+375-29-290-78-33</a>
+				<ul class="footer__social">
+					<li class="footer__social-item">
+						<a href="#" class="footer__social-link">
+							<img src="img/icon/icon_instpng.png" alt="icon_inst">
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a href="#" class="footer__social-link icon_git">
+							<img src="img/icon/icon_git.png" alt="icon_gitHab">
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a href="#" class="footer__social-link">
+							<img src="img/icon/icon_rss.png" alt="icon_school">
+						</a>
+					</li>
+				</ul>
 			</div>
-		</footer>
-	</div> -->
+		</div>
+	</footer>
+	<script src="main.js"></script>
 </body>
-</html>
