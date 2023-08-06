@@ -25,27 +25,31 @@
 				</button>
 				<ul class="menu__list">
 					<li class="menu__list-item">
-						<a href="#" class="menu__list-link">About me</a>
+						<a href="#about" class="menu__list-link">About me</a>
 					</li>
 					<li class="menu__list-item">
-						<a href="#" class="menu__list-link">Education</a>
+						<a id="link-education" href="#education" class="menu__list-link">Education</a>
 					</li>
 					<li class="menu__list-item">
-						<a href="#" class="menu__list-link">Skills</a>
+						<a id="link-scills" href="#skills" class="menu__list-link">Skills</a>
 					</li>
 					<li class="menu__list-item">
-						<a href="#" class="menu__list-link">Contact</a>
+						<a id="link-contact" href="#contact" class="menu__list-link">Contact</a>
 					</li>
 				</ul>
 			</nav>
 			<a href="tel:+375292907833" class="phone">+375-29-290-78-33</a>
 		</div>
 	</header>
-
 	<main class="main">
-
 		<section class="dream">
 			<div class="container dream__container">
+				<div class="dream__audio">
+					<button class="button__audio button-play">play</button>
+					<button class="button__audio button-pause">▐▐</button>
+					<audio class="audio" loop src="music/sweet-dreams.mp3"></audio>
+					<span class="dream__audio-title">sweet-dreams</span>
+				</div>
 				<div class="dream__content">
 					<h2 class="dream__title">A dream doesn’t become reality through magic; it takes sweat, determination and hard work.</h2>
 				</div>
@@ -58,14 +62,56 @@
 					<img src="img/my_icon.png" alt="my_photo">
 				</div>
 				<div class="about__content">
-					<h1>Victor RED</h1>
-					<p>Future frontend developer</p>
-					<p>Hello World!!!</p>
-					<p>I am Victor! I am 39 years old and I want to change my life!</p>
-					<p>You are never too old to set another goal or to dream a new dream.</p>
+					<h1><a id="about"></a>Victor RED</h1>
+					<div class="about__text">
+						<p>Future frontend developer</p>
+						<p>Hello World!!!</p>
+						<p>I am Victor! I am 39 years old and I want to change my life!</p>
+						<p>My profession is an engineer! I have worked in my company for over 21 years. During this time, I grew from an ordinary performer to the head of a separate direction.</p>
+						<p>Today I successfully master new areas and develop as a front-end developer!!!</p>
+					</div>
 				</div>
 			</div>
 		</section>
+
+		<section class="education">
+			<div class="container education__container">
+				<div class="education__higher">
+					<h3 class="education__title higher-title">Higher Education</h3>
+					<div class="education__text-block">
+						<div class="education__text item1">
+							<p><a id="education"></a>Academy MRB (Honours)</p>
+						</div>
+						<div class="education__text item2">
+							<p>Academy MRB CSF</p>
+						</div>
+					</div>
+				</div>
+				<div class="education__courses">
+					<h3 class="education__title courses-title">Courses</h3>
+					<div class="education__text item3">
+						<p>RSSchool</p>
+					</div>
+					<div class="education__text item4">
+						<p>Udemy</p>
+					</div>
+					<div class="education__text item5">
+						<p>Online English School</p>
+					</div>
+					<div class="education__level">
+						<p>English language level</p>
+						<p class="paragraph-uppercase">pre-intermediate</p>
+						<p>in progress Intermediate...</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+		
 	</main>
 
 	<footer class="footer">
